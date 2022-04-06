@@ -1,0 +1,111 @@
+<h!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div style="width: 1080px;">
+
+        <div style="width: 410px;">
+            <img src="https://fotos.subefotos.com/84a18461df42869c70ff65f8ec1ac273o.png" alt="" width="100%" />
+        </div>
+        <p style="font-size: 30px; text-align: center; margin-top: 60px;"><b>Master project 2022-2023</b></p>
+
+        <table class="table" style="width: 100%; margin-top: 50px;">
+            <tr style="background-color: #911B1B; color: white; height: 40px;">
+                <th colspan="2">Personal Information</th>
+            </tr>
+            <tr>
+                <td style=" padding: 10px;"></td>
+            </tr>
+            <tr>
+                <td style=" padding: 10px; "></td>
+            </tr>
+            <tr>
+                <td style=" padding: 10px;">
+                    <b>Supervisor</b>
+                </td>
+                <td>{get_Supervisores_name}</td>
+            </tr>
+            <tr>
+                <td style=" padding: 10px;">
+                    <b>Email</b>
+                </td>
+                <td>{get_Adreça_electrònica}</td>
+            </tr>
+            <tr>
+                <td style=" padding: 10px; ">
+                    <b>Institution</b>
+                </td>
+                <td>{get_Institution}</td>
+            </tr>
+
+            <tr>
+                <td style=" padding: 10px; ">
+                    <b>Website</b>
+                </td>
+                <td>
+                    <a href={get_Website}>{get_Website}</a>
+                </td>
+            </tr>
+            <tr>
+                <td style=" padding: 10px;">
+                    <b>Group</b>
+                </td>
+                <td>{get_Group}</td>
+            </tr>
+        </table>
+
+        <table class="table" style="width: 100%; margin-top: 40px;">
+            <tr style="background-color: #911B1B; color: white; height: 40px;">
+                <th colspan="2">Project</th>
+            </tr>
+        </table>
+        <p style="font-size: 25px; text-align: center; margin-top: 60px;"><b>{get_Field_of_Study}</b></p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 60px;"><b>Project Title:</b></p>
+        <p style="text-align: justify;">{get_Project_Title}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>Keywords:</b></p>
+        <p style="text-align: justify;">{get_Keywords}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>Summary:</b></p>
+        <p style="text-align: justify;">{get_Summary}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>{subtitle_References}</b></p>
+        <p style="text-align: justify;">{get_References}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>Expected skills::</b></p>
+        <p style="text-align: justify;">{get_Skills_required}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>Possibility of funding::</b></p>
+        <p style="text-align: justify;">{get_Funding}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>Possible continuity with PhD: :</b></p>
+
+        <p style="text-align: justify;">{get_Continuity_with_PhD}</p>
+
+        <p style="font-size: 17px; text-align: left ; margin-top: 30px;"><b>{subtitle_Additional_comments}</b></p>
+        <p style="text-align: justify;">{get_Additional_comments}</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="color: white;">.</p>
+    </div>
+</body>
+
+</html>
