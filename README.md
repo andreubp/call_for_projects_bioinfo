@@ -1,2 +1,3 @@
-# call_for_projects_masterBIOINFO
-To parse data from call for projects form of the bioinformatics master
+# call_for_projects_bioinfo.
+
+Parse data from Projects form and autmoatically generate PDFs for each project.
